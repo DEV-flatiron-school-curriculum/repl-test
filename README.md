@@ -42,32 +42,6 @@ tayArray
 
 %%%
 
-%%%
-
-### Ruby Repl
-
-Write and call a method that returns the string `"hamburgers"`.
-
-```ruby
-  def hamburgers
-    puts 'hamburgers'
-  end
-```
-
-Now write your own!
-
-~~~ruby
-
-# Code your solution here
-
-~~~
-
-"hamburgers"
-
-~~~
-
-%%%
-
 ### Some more markdown here
 
 and so on and so on
