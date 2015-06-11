@@ -28,7 +28,7 @@ The space delineated by the tildes below is used to set any initial values for t
 
 var tayArray = [];
 
-~~~
+~~~solution
 
 var tayArray = [];
 
@@ -37,6 +37,10 @@ for(i=0; i<5; i++;){
 }
 
 tayArray
+
+~~~validation
+
+"some validation"
 
 ~~~
 
