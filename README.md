@@ -10,7 +10,7 @@ Schlitz brunch photo booth lumbersexual cliche banjo Intelligentsia street art, 
 
 Here, you can write any necessary directions for the repl.  It will be parsed as markdown, and even accepts codeblocks!
 
-Write a `while` loop that fills the given array `tayArray` with five strings, each containing "taylors gonna tay".
+Write a `for` loop that fills the given array `tayArray` with five strings, each containing "taylors gonna tay".
 
 Here's an example of iteration in JS:
 
@@ -30,8 +30,13 @@ var tayArray = [];
 
 ~~~
 
-["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"]
+var tayArray = [];
 
+for(i=0; i<5; i++;){
+  tayArray.push("taylors gon tay");
+}
+
+tayArray
 ~~~
 
 %%%
