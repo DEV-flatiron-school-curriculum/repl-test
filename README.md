@@ -30,13 +30,17 @@ var tayArray = [];
 
 ~~~
 
+["taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay","taylors gonna tay"]
+
+~~~
+
 %%%
 
 %%%
 
 ### Ruby Repl
 
-Here, you can write any necessary directions for the repl.  It will be parsed as markdown, and even accepts codeblocks!
+Write and call a method that returns the string `"hamburgers"`.
 
 ```ruby
   def hamburgers
@@ -49,6 +53,10 @@ Now write your own!
 ~~~ruby
 
 # Code your solution here
+
+~~~
+
+"hamburgers"
 
 ~~~
 
