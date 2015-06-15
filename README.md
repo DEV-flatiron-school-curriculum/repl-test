@@ -40,8 +40,8 @@ tayArray
 
 ~~~validation
 
-<answer>.should.have.length(3);
-expect(<answer>).to.be.a("array");
+response.should.have.length(3);
+expect(response).to.be.a("array");
 
 ~~~
 
@@ -67,11 +67,11 @@ def reverse(string)
   string.reverse
 end
 
-reverse("12345")
+reverse('12345')
 
 ~~~validation
 
-assert.equal(<answer>,"54321");
+assert.equal(response,"54321");
 
 ~~~
 
