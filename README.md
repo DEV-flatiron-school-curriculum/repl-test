@@ -10,7 +10,7 @@ Schlitz brunch photo booth lumbersexual cliche banjo Intelligentsia street art, 
 
 Here, you can write any necessary directions for the repl.  It will be parsed as markdown, and even accepts codeblocks!
 
-Write a `for` loop that fills the given array `tayArray` with five strings, each containing "taylors gonna tay".
+Write a `for` loop that fills the given array `tayArray` with three strings, each containing "taylors gonna tay".
 
 Here's an example of iteration in JS:
 
@@ -32,7 +32,7 @@ var tayArray = [];
 
 var tayArray = [];
 
-for(i=0; i<5; i++;){
+for(i=0; i<3; i++;){
   tayArray.push("taylors gon tay");
 }
 
@@ -40,7 +40,8 @@ tayArray
 
 ~~~validation
 
-"some validation"
+<answer>.should.have.length(3);
+expect(<answer>).to.be.a('array');
 
 ~~~
 
@@ -49,6 +50,32 @@ tayArray
 ### Some more markdown here
 
 and so on and so on
+
+%%%
+
+### Ruby Repl
+
+Write a method that reverses a string, and call it, passing "12345" as an argument.
+
+~~~ruby
+
+# Code your solution here
+
+~~~solution
+
+def reverse(string)
+  string.reverse
+end
+
+reverse('12345')
+
+~~~validation
+
+assert.equal(<answer>,'54321');
+
+~~~
+
+%%%
 
 ???
 
