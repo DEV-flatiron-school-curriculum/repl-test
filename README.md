@@ -40,7 +40,7 @@ tayArray
 
 ~~~validation
 
-response.should.have.length(3);
+expect.response.to.have.length(3);
 expect(response).to.be.a("array");
 
 ~~~
