@@ -71,7 +71,7 @@ reverse(12345)
 
 ~~~validation
 
-assert.equal(response,54321);
+assert.strictEqual(response,54321);
 
 ~~~
 
